@@ -37,3 +37,36 @@ let colour = ["orange","blue","purple","skyblue"]
 let colure = ["red","white","black"]
 let add =colour.concat(colure)
 console.log(add)
+
+
+
+
+
+let h = ["kunaal","rachana","golu"]
+
+//retrive 
+console.log(h[0])
+
+//update
+h[0]= "kuki"
+h[1]="ruu"
+console.log(h)
+
+
+//add
+h.push("kunaal")
+h.unshift("rachana")
+console.log(h)
+
+
+//delete
+
+h.pop()
+console.log(h)
+h.shift()
+console.log(h)
+
+
+h.push("kunaal")
+h.unshift("rachana")
+console.log(h)

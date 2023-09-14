@@ -4,6 +4,7 @@
 //at
 //splice
 //flat
+//for each
 
 
 
@@ -22,8 +23,14 @@ console.log(city.slice(2))
 console.log(city.slice(1,2))
 console.log(city.slice(2,4))
 console.log(city.slice(-3,-1))
-
-
+console.log("------------------------------")
+let y = city.forEach(function(el){
+    if (el.includes("nagpur")){
+        console.log("yes")
+    }
+})
+console.log(y)
+console.log("------------------------------")
 
 let bike = ["r15","pulsar200","tvs"]
 a =bike.at(1)
